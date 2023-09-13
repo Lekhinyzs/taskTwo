@@ -1,0 +1,78 @@
+header {
+  background-image: url("/public/Poster.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 60vh;
+}
+.container {
+  padding-top: 40px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.searchIcon {
+  color: aliceblue;
+  position: relative;
+  right: 30px;
+}
+.img_title,
+.signIn_title {
+  color: white;
+  padding-left: 20px;
+}
+.movie_title {
+  color: white;
+  font-size: 70px;
+}
+.searchIcon {
+  padding-top: 10px;
+}
+.seachItems {
+  height: 40px;
+  border-radius: 10px;
+  width: 400px;
+  background: rgba(0, 0, 0, 0);
+  border-width: 3px;
+  border-color: rgb(238, 113, 113);
+}
+.nav_sign {
+  display: flex;
+  align-items: center;
+}
+.nav_box {
+  display: flex;
+}
+.tvImg {
+  width: 50px;
+  height: 50px;
+}
+.MenuImg {
+  width: 30px;
+  height: 30px;
+}
+
+.movie-list {
+  display: grid;
+  column-gap: 2.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  padding-left: 20px;
+  position: absolute;
+  top: 70%;
+}
+img {
+  width: 300px;
+  height: 450px;
+}
+.movie_head {
+  position: absolute;
+  top: 60%;
+}
+
+.sub_title {
+  color: aliceblue;
+}
